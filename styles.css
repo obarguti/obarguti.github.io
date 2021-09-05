@@ -242,6 +242,11 @@ header, footer {
     color: #589053;
 }
 
+#history .job-info.location {
+    font-size: 10pt;
+    margin-top: 4px;
+}
+
 #history .job-date {
     color: #80D6FF;
     text-align: right;
@@ -249,6 +254,10 @@ header, footer {
     position: absolute;
     right: 0;
     top: 0;
+}
+
+#history .job-date.row2 {
+    top: 20px;
 }
 
 #history .job-details {
@@ -293,7 +302,7 @@ header, footer {
 }
 
 #page2 .middle .main .content-section {
-    padding-bottom: 48px;
+    padding-bottom: 32px;
 }
 
 #page2 .job::before {
